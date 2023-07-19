@@ -1,0 +1,14 @@
+:root {
+  /* Primary */
+  --color-veryDarkMagenta: hsl(300, 43%, 22%);
+  --color-softPink: hsl(333, 80%, 67%);
+  /* neutral */
+  --color-darkGrayishMagenta: hsl(303, 10%, 53%);
+  --color-lightGrayishMagenta: hsl(300, 24%, 96%);
+  --color-white: hsl(0, 0%, 100%);
+
+  --weight-light: 400;
+  --weight-normal: 500;
+  --weight-heavy: 700;
+  /* discipline */
+}
