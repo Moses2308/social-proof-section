@@ -25,14 +25,16 @@ body {
 }
 .reviews__top {
   text-align: center;
-  padding: 2.1rem;
+  padding: 2.1rem 0;
   color: var(--color-darkGrayishMagenta);
+  font-weight: var(--weight-normal);
 }
 .top__heading {
   color: var(--color-veryDarkMagenta);
-  font-size: 2rem;
+  font-size: 2.7rem;
   font-weight: var(--weight-heavy);
-  line-height: normal;
+  line-height: 0.8;
+  letter-spacing: -1px;
   margin-bottom: 1rem;
 }
 .rating-component {
@@ -52,7 +54,8 @@ body {
 .review-component {
   background-color: var(--color-veryDarkMagenta);
   color: var(--color-white);
-  padding: 2rem;
+  padding: 3rem;
+  font-weight: var(--weight-normal);
   border-radius: 0.5rem;
   margin-bottom: 1rem;
 }
@@ -64,6 +67,7 @@ body {
   grid-template-columns: 2.75rem 1fr;
   column-gap: 1.5rem;
   margin-bottom: 1.5rem;
+  font-weight: var(--weight-heavy);
 }
 .review-component img {
   border-radius: 50%;
