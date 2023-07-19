@@ -35,3 +35,16 @@ body {
   line-height: normal;
   margin-bottom: 1rem;
 }
+.rating-component {
+  background-color: var(--color-lightGrayishMagenta);
+  padding: 1rem 0 0.5rem 0;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+.rating__stars > img {
+  display: inline;
+}
+.rating-component > p {
+  color: var(--color-veryDarkMagenta);
+  font-weight: var(--weight-heavy);
+}
