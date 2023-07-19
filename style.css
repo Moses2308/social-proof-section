@@ -56,12 +56,17 @@ body {
   border-radius: 0.5rem;
   margin-bottom: 1rem;
 }
-.review-component img {
-  border-radius: 50%;
+.verified {
+  color: var(--color-softPink);
 }
 .review__user {
   display: grid;
+  grid-template-columns: 2.75rem 1fr;
+  column-gap: 1.5rem;
+  margin-bottom: 1.5rem;
 }
-.verified {
-  color: var(--color-softPink);
+.review-component img {
+  border-radius: 50%;
+  width: 2.75rem;
+  grid-row-end: span 2;
 }
