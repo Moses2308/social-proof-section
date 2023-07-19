@@ -74,3 +74,25 @@ body {
   width: 2.75rem;
   grid-row-end: span 2;
 }
+@media (min-width: 850px) {
+  .reviews {
+    max-width: 1160px;
+  }
+  .reviews__top {
+    display: grid;
+    grid-template-columns: 356px 440px;
+    text-align: left;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .reviews__bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .rating-component {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+}
